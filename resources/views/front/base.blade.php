@@ -31,5 +31,11 @@
 <!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 <script src="{{ elixir('js/all.js') }}"></script>
 @yield('bodyscripts')
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+    window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+    ga('create','UA-51468211-6','auto');ga('send','pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>
 </html>
