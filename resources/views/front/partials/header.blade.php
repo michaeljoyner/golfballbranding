@@ -1,5 +1,5 @@
 <div class="email-topbar">
-    <p><a href="mailto:ryan@absolutesports.co.za">EMAIL: ryan@absolutesports.co.za</a></p>
+    <p><a href="mailto:ryan@absolutesports.co.za">EMAIL: ryan@absolutesport.co.za</a></p>
 </div>
 <div class="w-section logosection">
     <img class="navlogo"
