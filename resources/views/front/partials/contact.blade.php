@@ -21,5 +21,5 @@
             </form>
         </div>
     </div>
-    <div class="contacttextblock bottom">ALternatively call ryan at +27 83 257 9611</div>
+    <div class="contacttextblock bottom">ALternatively call ryan at +27 83 257 9611 or EMAIL at ryan@absolutesport.co.za</div>
 </div>

@@ -1,0 +1,32 @@
+.email-topbar {
+  background: #DA3132;
+  color: #fff;
+  padding: 20px;
+  font-size: 120%;
+
+
+
+  p {
+    margin: 0;
+    text-align: right;
+    text-transform: none;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      border: none;
+
+      @include respond-to(phone) {font-size: 14px;}
+    }
+  }
+}
+
+a.mail-link {
+  border: none;
+  font-size: 1em;
+  text-transform: none;
+
+  &.thin {
+    font-weight: 300;
+  }
+}

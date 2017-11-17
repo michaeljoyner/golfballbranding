@@ -25,7 +25,7 @@ abstract class Mailer {
 
     protected function sendTo($to, $from, $subject, $view, $data, $attachments = [])
     {
-        $this->laravelMailer->queue($view, $data, function($message) use ($to, $from, $subject, $attachments)
+        $this->laravelMailer->send($view, $data, function($message) use ($to, $from, $subject, $attachments)
         {
             $message->to($to)->subject($subject);
             foreach($attachments as $filename)

@@ -27,9 +27,10 @@ class CartController extends Controller
     {
         $id = intval($itemId);
 
-        $rowId = Cart::search(['id' => $id]);
-        $item = Cart::get($rowId[0]);
-        Cart::remove($rowId[0]);
+        $item = Cart::search(function($cartItem, $rowId) use ($id) {
+            return $cartItem->id === $id;
+        })->first();
+        Cart::remove($item->rowId);
 
 
         return response()->json([

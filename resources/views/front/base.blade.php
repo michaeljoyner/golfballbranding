@@ -9,7 +9,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="theme-color" content="#DB4C38">
     @yield('head')
-    <link rel="stylesheet" href="{{ elixir('css/fapp.css') }}"/>
+    <link rel="stylesheet" href="{{ mix('/css/fapp.css') }}"/>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
     <script>
         WebFont.load({
