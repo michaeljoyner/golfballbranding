@@ -6,8 +6,8 @@
             <p>Milan Media</p>
         </div>
         <div class="sample-box">
-            <img src="{{ asset('images/samples/tokyo.jpg') }}" alt="sample branded golf ball"/>
-            <p>Tokyo 2020</p>
+            <img src="{{ asset('images/samples/springboks_new.jpg') }}" alt="sample branded golf ball"/>
+            <p>Springboks</p>
         </div>
         <div class="sample-box">
             <img src="{{ asset('images/samples/springbok.jpg') }}" alt="sample branded golf ball"/>

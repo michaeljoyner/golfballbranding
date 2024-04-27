@@ -14,7 +14,7 @@
     {!! Form::open(['url' => 'checkout', 'id' => 'checkout-form']) !!}
     <div class="w-section process-section">
         <div class="w-container">
-            <h1 class="sectionheading">CHECKOUT PROCESS</h1>
+            <h1 class="sectionheading">QUOTE PROCESS</h1>
             <p class="uploadtext">You're almost there. Choose your golf ball quantities, select a branded packaging option, and upload your imagery and fill in your details. We will then contact you with a quote. If you'd like to change your selection, simply go
                 <a href="/" class="back-home-link">back.</a></p>
         </div>
@@ -31,7 +31,7 @@
                         <div class="select-container">
                             <span class="select-arrow"></span>
                             <select name="product_{{ $product->id }}">
-                                @foreach(range(12, 120, 12) as $qty)
+                                @foreach(range(1, 10) as $qty)
                                     <option value="{{ $qty }}">{{ $qty }}</option>
                                 @endforeach
                             </select>

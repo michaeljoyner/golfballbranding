@@ -64,7 +64,7 @@ var cartManager = {
                 buttons[i].innerHTML = 'In Your Cart';
             } else {
                 buttons[i].className = 'button product product-btn';
-                buttons[i].innerHTML = 'Add Product';
+                buttons[i].innerHTML = 'Add To Quote';
             }
         });
     }

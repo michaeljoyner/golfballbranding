@@ -10,7 +10,7 @@
                                 <img class="productimage" src="{{ $product->smallestImageSrc() }}">
                             </div>
                             <p class="producttext">{{ $product->name }}</p>
-                            <a id="btn_{{ $product->id }}" data-product-id="{{ $product->id }}" class="button product product-btn" href="#">ADD PRODUCT</a>
+                            <a id="btn_{{ $product->id }}" data-product-id="{{ $product->id }}" class="button product product-btn" href="#">ADD TO QUOTE</a>
                         </div>
                     </div>
                 @endforeach
