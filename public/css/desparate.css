@@ -1,0 +1,20 @@
+.birdie-link {
+  background: #da3231;
+  display: inline-block;
+  margin: 2rem auto;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  text-transform: uppercase;
+}
+
+.birdie-link:hover {
+  color: white;
+  background: #db4c38;
+}
+
+.birdie-button-box {
+  display: flex;
+  justify-content: center;
+}
